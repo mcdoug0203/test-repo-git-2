@@ -1,6 +1,6 @@
 git branch: lihat semua branch
 git branch [nama branch]: tambah branch baru dengan nama [nama branch]
-git log --all --decorate --online --graph: tunjukkan graph branching
+git log --all --decorate --oneline --graph: tunjukkan graph branching
 alias [alias]="[command]": menyingkat [command] panjang menjadi [alias], tinggal panggil [alias] untuk execute [command]
 git checkout [nama_branch]: ganti pointer ke branch [nama_branch]
 git merge [nama_branch]: merge [nama_branch] ke branch pointer (head)
