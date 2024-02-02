@@ -3,6 +3,7 @@ git branch [nama branch]: tambah branch baru dengan nama [nama branch]
 git log --all --decorate --oneline --graph: tunjukkan graph branching
 alias [alias]="[command]": menyingkat [command] panjang menjadi [alias], tinggal panggil [alias] untuk execute [command]
 git checkout [nama_branch]: ganti pointer ke branch [nama_branch]
+git checkout [7 digit hash]: ganti pointer ke commit [7 digit hash] (detached HEAD)
 git merge [nama_branch]: merge [nama_branch] ke branch pointer (head)
 git branch --merged: lihat semua branch yang sudah merged
 git branch -d [nama_branch]: hapus branch [nama_branch]
