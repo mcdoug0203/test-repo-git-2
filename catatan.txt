@@ -7,3 +7,4 @@ git checkout [7 digit hash]: ganti pointer ke commit [7 digit hash] (detached HE
 git merge [nama_branch]: merge [nama_branch] ke branch pointer (head)
 git branch --merged: lihat semua branch yang sudah merged
 git branch -d [nama_branch]: hapus branch [nama_branch]
+git rebase [branch]: geser akar branch yang ada di pointer HEAD ke [branch]
